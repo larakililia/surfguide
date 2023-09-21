@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("w.jpg");
+    background-size: cover ;
+    
+
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(201, 134, 129);
+    display: flex;
+    justify-content: center; 
+} 
+label.logo {
+    color: white;
+    font-size: 38px;
+    line-height: 40px;
+    padding: 0 60px;
+    font-size: bold;
+    padding: 30px;
+}
+nav ul {
+    float: right;
+    margin-right: 8px;
+}
+nav li {
+    list-style-type: none;
+    line-height: 40px;
+    margin: 2px;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 20px 30px;
+    margin-right: 0 2px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-size-adjust: 20px;
+    
+}
+.menu-Realsurf:hover{
+    background-color:  rgb(3, 125, 240);
+    transition: .5s;
+}
+.menu-Intermediate:hover{
+    background-color: rgb(137, 201, 129);
+    transition: .5s;
+}
+.menu-Professional:hover{
+    background-color: rgb(221, 221, 97);
+    transition: .5s;
+}
+.menu-Competitions:hover{
+    background-color: #778899	;
+    transition: .5s;
+}
+.menu-Weather:hover{
+    background-color: rgb(158, 76, 235);
+    transition: .5s;
+}
+.menu-music:hover{
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+    
+.checkbtn{
+    font-size: 35px;
+    color: white;
+    float:right;
+    line-height: 80px; 
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+ }   
+#check {
+    display: none;
+}
+@media (max-width: 658px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav a {
+        font-size: 16px;
+     }
+}
+@media (max-width: 1430px) {
+    .checkbtn{
+        display: block;
+    } 
+    ul.menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(219, 157, 153);
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+        
+
+}
+nav li{
+    display: block;
+    margin: 35px 0;
+    line-height: 30px;
+}
+nav a{
+font-size: 20px;
+}
+a:hover a:active{
+    background: none;
+    color:  rgb(3, 125, 240);
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+h1 {
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 225, 255, 0.596);
+    margin-top: 77px;
+
+}
+div.a {
+    text-align: center;
+    color:black;
+    text-transform: capitalize;
+    
+}
+div.b {
+    
+    
+    color:black;
+    text-transform: capitalize;
+    margin-right: 15px;
+    margin-left: 12px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: rgb(137, 201, 129);
+    text-align: center;
+    
+    
+}
+
+div.d {
+    text-indent: 30px;
+    color:rgba(0, 0, 0, 0.856);
+    
+    margin-right: 15px;
+    margin-left: 12px;
+    
+    font-size: 25px;
+    font-family: serif;
+}
+div.l {
+    width: 150px;
+    height: 100px;
+    padding: 15px;
+    
+    box-shadow: 10px 10px;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+img.size {
+    
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.l {
+    width: 150px;
+  height: 100px;
+  background-color:rgba(58, 144, 155, 0.596);
+  animation-name: example;
+  animation-duration: 5s;
+  text-align: center;
+  font-size: 18px;
+}
+
+ @keyframes example {
+        0%   {background-color: rgba(58, 144, 155, 0.596);}
+        25%  {background-color: rgba(255, 255, 0, 0.651);}
+        50%  {background-color: rgba(0, 0, 255, 0.527);}
+        75%  {background-color:rgba(255, 0, 0, 0.582);}
+        100% {background-color: rgba(0, 128, 0, 0.568);}
+}
+
+div.a {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-decoration-line: underline; /* Safari */
+    text-decoration-line: overline underline;
+    text-decoration-color: rgba(255, 123, 0, 0.747);
+    font-style: italic;
+}
+video.take{
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.size2 {
+    
+    display: block;
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+

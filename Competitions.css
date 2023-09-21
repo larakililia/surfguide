@@ -1,0 +1,233 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("w.jpg");
+    background-size: cover;
+   
+}
+
+nav {
+    width: 100%;
+    background-color:#778899;
+    display: flex;
+    justify-content: center; 
+} 
+label.logo {
+    color: white;
+    font-size: 38px;
+    line-height: 40px;
+    padding: 0 60px;
+    font-size: bold;
+    padding: 30px;
+}
+nav ul {
+    float: right;
+    margin-right: 8px;
+}
+nav li {
+    list-style-type: none;
+    line-height: 40px;
+    margin: 2px;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 20px 30px;
+    margin-right: 0 2px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-size-adjust: 20px;
+    
+}
+.menu-Realsurf:hover{
+    background-color:  rgb(3, 125, 240);
+    transition: .5s;
+}
+.menu-Beginner:hover{
+    background-color:  rgb(201, 134, 129);
+    transition: .5s;
+}
+.menu-Intermediate:hover{
+    background-color:rgb(137, 201, 129) ;
+    transition: .5s;
+}
+.menu-Professional:hover{
+    background-color: rgb(221, 221, 97)	;
+    transition: .5s;
+}
+.menu-Weather:hover{
+    background-color: rgb(158, 76, 235);
+    transition: .5s;
+}
+.menu-music:hover{
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 35px;
+    color: white;
+    float:right;
+    line-height: 80px; 
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+ }   
+#check {
+    display: none;
+}
+@media (max-width: 1430px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav a {
+        font-size: 16px;
+     }
+     th{
+       
+        display:none;
+        
+        
+            
+       }
+            tbody,tr,td{
+               
+                display: block;
+                width: 100%;
+             
+             }
+            tr{
+               margin-bottom: 15px;
+             
+             }
+            td{
+               text-align: right;
+               padding-left: 50%;
+              
+               position: relative;
+               
+             
+             }
+            
+            td::before{
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 12px;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: left;
+                color: rgb(57, 57, 228);
+                
+             } 
+    
+}
+@media (max-width: 1430px) {
+    .checkbtn{
+        display: block;
+    } 
+    ul.menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #848f9b;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+    
+      
+}
+nav li{
+    display: block;
+    margin: 35px 0;
+    line-height: 30px;
+}
+nav a{
+font-size: 20px;
+}
+a:hover a:active{
+    background: none;
+    color:  rgb(3, 125, 240);
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}   
+
+     
+*{
+    box-sizing: border-box;
+
+   
+} 
+   
+table{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0px 5px 50px rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid midnightblue;
+   
+    
+}
+thead tr{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+}
+th, td{
+    padding: 3px 3px;
+}
+tbody, td,th {
+    border: 1px solid #ddd;
+}
+tbody, tr:nth-child(even){
+    background-color: #f3f3f3;
+
+}
+
+     
+  
+
+   
+
+div.a {
+    text-indent: 30px;
+    color:rgba(0, 0, 0, 0.856);
+    
+    margin-right: 13px;
+    margin-left: 10px;
+    
+    font-size: 20px;
+    font-family: serif;
+}
+
+h3 {
+    text-align: center;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #03a9f4;
+   
+}
+h1 {
+    
+    text-align: center;
+     color:black;
+     text-transform: uppercase;
+     text-shadow: 2px 2px rgba(0, 225, 255, 0.596);
+     margin-top: 77px;
+     
+    
+     
+     
+ 
+ }

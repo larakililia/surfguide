@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("w.jpg");
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(3, 125, 240);
+    display: flex;
+    justify-content: center; 
+} 
+label.logo {
+    color: white;
+    font-size: 38px; 
+    line-height: 40px;
+    padding: 0 60px;
+    font-size: bold;
+    padding: 30px;
+}
+nav ul {
+    float: right;
+    margin-right: 8px;
+}
+nav li {
+    list-style-type: none;
+    line-height: 40px;
+    margin: 2px;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0,0,0);
+    display: inline-block;
+    padding: 20px 30px;
+    margin-right: 0 2px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-size-adjust: 20px; 
+   
+}
+.menu-Beginner:hover{
+    background-color: rgb(201, 134, 129);
+    transition: .5s;
+}
+.menu-Intermediate:hover{
+    background-color: rgb(137, 201, 129);
+    transition: .5s;
+}
+.menu-Professional:hover{
+    background-color: rgb(201, 201, 129);
+    transition: .5s;
+}
+.menu-Competitions:hover{
+    background-color: #778899   ;
+    transition: .5s;
+}
+.menu-Weather:hover{
+    background-color: rgb(158, 76, 235);
+    transition: .5s;
+}
+.menu-music:hover{
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+   
+
+.checkbtn{
+    font-size: 35px;
+    color: white;
+    float:right;
+    line-height: 80px; 
+    margin-right:40px ;
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+    
+ }   
+#check {
+    display: none;
+}
+@media (max-width: 658px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav a {
+        font-size: 16px;
+        
+     }
+}
+@media (max-width: 1430px) {
+    .checkbtn {
+        display: block;
+    } 
+    ul {
+       position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(67, 153, 233);
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+    
+}
+
+nav li{
+    display: block;
+    margin: 35px 0;
+    line-height: 30px;
+}
+nav a{
+font-size: 20px;
+}
+a:hover a:active{
+    background: none;
+    color: rgb(3, 125, 240);
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+h1 {
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    text-shadow: 2px 2px yellow;
+    margin-top: 77px;
+}
+div.a {
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-text-decoration-line: overline underline; /* Safari */
+    text-decoration-line: overline underline;
+    text-decoration-color: red;
+    font-style: italic;
+}
+div.b  {
+    text-indent: 30px;
+    margin-right: 15px;
+    margin-left: 12px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  
+    
+    
+}
+
+img.his {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenu{
+    flex: 1 0 auto;
+}
+.contenu p{
+    padding: 5vw 10vw;
+    text-align: justify;
+    
+}
+    
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width:100%;
+    background:rgba(0, 0, 0, 0.548);
+    bottom: 0px;
+}
+
+.centenu-footer{
+    
+   
+    display: flex;
+    
+    
+}
+.centenu-footer{
+    
+   
+    flex-basis: 50%;
+    padding: 10px 20px;
+    position: fixed;
+    
+    
+}
+
+.footer-about h2,
+.footer-adress h2,
+.footer-contact h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+    
+}
+ 
+.footer-about p{
+    padding: 5px 0;
+}
+.sociaux{
+    margin: 20px 50px 5px;
+    
+}
+.sociaux i{
+    
+    font-size: 1.8em;
+    margin:0.4%;
+    transition: all 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.contenu-footer .box {
+    flex-basis: 50;
+    padding: 10px 20px;
+
+}
+.box h2{
+    font-size: 1.125rem;
+}
+.box .contenu{
+    margin: 20px 0 0 0;
+
+}
+
+.left .contenu .sociaux {
+    margin: 20px 0 0 0;
+
+}
+.left .contenu .sociaux a{
+   padding: o 2px;
+
+}
+
+.contenu-footer p {
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+   text-align: center;
+   font-style: italic;
+   
+    
+}
+.contenu-footer h2 {
+    color: black;
+    text-shadow: 1px 1px 5px yellow;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: bold;
+    font-size: 1.4em;
+    
+     
+}
+.contenu-footer .sociaux a {
+    color: white;
+    font-size: 1.2em;
+    margin: 48%;
+}
+.contenu-footer .mail a {
+    color: white;
+    font-size: 1.2em;
+    margin: 43%;
+}
